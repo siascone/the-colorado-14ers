@@ -1,0 +1,17 @@
+.fourteener-container {
+    display: flex;
+    margin: 10px
+    // flex-direction: column;
+}
+
+.fourteener-image {
+    height: 500px;
+    width: 500px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.metrics-container {
+    display: flex;
+    flex-direction: column;
+}

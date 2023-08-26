@@ -19,14 +19,14 @@ class Select {
         this.select.appendChild(defaultOption);
         
         Object.values(fourteeners).forEach(fourteener => {
-            let peakName = fourteener["Mountain Peak"];
+            let peakName = fourteener.mountainPeak;
             let option = document.createElement('option');
             option.value = peakName;
             option.id = fourteener.id
             option.innerText = peakName;
             this.select.appendChild(option);
         });
-        
+        this.container.innerHTML = "";
         this.container.appendChild(this.select);
     }
 
