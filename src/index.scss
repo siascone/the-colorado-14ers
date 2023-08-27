@@ -1,6 +1,14 @@
-// @import "./styles/example.scss";
 @import "./styles/reset.scss";
+@import "./styles/navigation.scss";
 @import "./styles/fourteener.scss";
-// #root {
-//     color: $color;
-// }
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#root {
+    // width: 100%;
+    // height: inherit;
+    // margin: 10px;
+}

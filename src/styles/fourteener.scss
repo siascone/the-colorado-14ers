@@ -1,14 +1,27 @@
-.fourteener-container {
+.fourteener-main {
+    width: 100%;
     display: flex;
-    margin: 10px
-    // flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.fourteener-image {
-    height: 500px;
+.fourteener-container, .fourteener-map {
     width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue
+}
+
+// @media only screen and (max-width: 999px) {
+//     .fourteener-main {
+//         flex-direction: row !important;
+//     }
+// }
+
+.fourteener-image {
+    max-width: 100%;
     border-radius: 6px;
-    margin-right: 10px;
 }
 
 .metrics-container {
