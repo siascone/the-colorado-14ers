@@ -10,7 +10,9 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    border: 1px solid blue
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: center;
 }
 
 // @media only screen and (max-width: 999px) {

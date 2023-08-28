@@ -140,7 +140,8 @@ table {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
+  height: 80px;
+  border: 4px solid black;
 }
 
 .navigation-heading-select {
@@ -169,6 +170,8 @@ table {
   display: flex;
   flex-direction: column;
   border: 1px solid blue;
+  align-items: center;
+  justify-content: center;
 }
 
 .fourteener-image {
@@ -179,6 +182,30 @@ table {
 .metrics-container {
   display: flex;
   flex-direction: column;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  width: 100%;
+  margin: 10px;
+}
+
+.weather-current {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: 300px;
+}
+
+.weather-forcast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: calc(100% - 302px);
 }
 
 body {

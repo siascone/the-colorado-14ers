@@ -1,0 +1,24 @@
+.weather-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+}
+
+.weather-current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    width: 300px;
+}
+
+.weather-forcast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    width: calc(100% - 302px);
+
+}
