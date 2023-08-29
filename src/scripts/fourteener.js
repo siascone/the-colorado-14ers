@@ -9,7 +9,7 @@ class Fourteener {
         this.addImage = this.addImage.bind(this);
         this.buildFourteenr = this.buildFourteenr.bind(this);
 
-        console.log(this.data)
+        // console.log(this.data)
 
         this.buildFourteenr();
     }

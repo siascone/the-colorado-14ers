@@ -1,5 +1,6 @@
 import { fourteeners } from "../../assets/14er";
 import Fourteener from "./fourteener";
+import Weather from "./weather";
 
 class Select {
     constructor(container) {
@@ -7,6 +8,7 @@ class Select {
         this.select = document.createElement('select');
         this.initializeSelect = this.initializeSelect.bind(this);
         this.addFourteener = this.addFourteener.bind(this);
+        this.addWeather = this.addWeather.bind(this);
         this.registerEvents = this.registerEvents.bind(this);
         this.initializeSelect();
         this.registerEvents();
@@ -31,12 +33,26 @@ class Select {
     }
 
     addFourteener() {
+        if (this.select.selectedIndex === 0) return;
         let container = document.querySelector('.fourteener-container');
         let fourteenerId = this.select.options[this.select.selectedIndex].id;
         // debugger
         let fourteenerObj = fourteeners[fourteenerId]
         // console.log(fourteenerObj)
         new Fourteener(container, fourteenerObj)
+
+        this.addWeather(fourteenerObj)
+    }
+
+    addWeather(fourteenerObj) {
+        let weatherContainer = document.querySelector('.weather-current')
+
+        let coordinates = {
+            lat: fourteenerObj.lat,
+            long: fourteenerObj.long
+        }
+
+        new Weather(weatherContainer, coordinates)
     }
 
     registerEvents() {

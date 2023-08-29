@@ -17,4 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const map = document.querySelector('.fourteener-map');
     new Map(map)
     
+    
 })

@@ -7,8 +7,9 @@
 
 .weather-current {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
     border: 3px solid skyblue;
     border-radius: 6px;
     width: 300px;

@@ -1,6 +1,7 @@
 import { Loader } from 'google-maps';
 import { fourteeners } from '../../assets/14er';
 import Fourteener from './fourteener';
+import Weather from './weather';
 
 
 class Map {
@@ -39,10 +40,18 @@ class Map {
 
             marker.addListener('click', () => {
                 let fourteenerContainer = document.querySelector('.fourteener-container')
+                let weatherContainer = document.querySelector('.weather-current')
                 let select = document.querySelector('select');
                 select.selectedIndex = marker.id;
+
                 let fourteenerObj = fourteeners[marker.id]
                 new Fourteener(fourteenerContainer, fourteenerObj)
+
+                let coordinates = {
+                    lat: fourteenerObj.lat,
+                    long: fourteenerObj.long
+                }
+                new Weather(weatherContainer, coordinates)
             })
 
             marker.setMap(this.map);
