@@ -2,14 +2,10 @@
 @import "./styles/navigation.scss";
 @import "./styles/fourteener.scss";
 @import "./styles/weather.scss";
+@import "./styles/footer.scss";
 
 body {
     width: 100%;
     min-height: 100vh;
-}
-
-#root {
-    // width: 100%;
-    // height: inherit;
-    // margin: 10px;
+    background-color: #EBA487;
 }

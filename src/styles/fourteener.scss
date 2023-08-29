@@ -1,8 +1,9 @@
 .fourteener-main {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    // justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
 }
 
 .fourteener-container, .fourteener-map {
@@ -11,15 +12,20 @@
     display: flex;
     flex-direction: column;
     border: 1px solid blue;
+    border-radius: 6px;
     align-items: center;
-    justify-content: center;
+    margin: 10px;
 }
 
-// @media only screen and (max-width: 999px) {
-//     .fourteener-main {
-//         flex-direction: row !important;
-//     }
-// }
+.fourteener-container {
+
+}
+
+.fourteener-map {
+    justify-content: center;
+    width: calc(100% - 502px);
+}
+
 
 .fourteener-image {
     max-width: 100%;
