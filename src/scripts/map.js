@@ -38,9 +38,11 @@ class Map {
             })
 
             marker.addListener('click', () => {
-                let container = document.querySelector('.fourteener-container')
+                let fourteenerContainer = document.querySelector('.fourteener-container')
+                let select = document.querySelector('select');
+                select.selectedIndex = marker.id;
                 let fourteenerObj = fourteeners[marker.id]
-                new Fourteener(container, fourteenerObj)
+                new Fourteener(fourteenerContainer, fourteenerObj)
             })
 
             marker.setMap(this.map);
