@@ -12,7 +12,7 @@ class Weather {
     }
 
     async getWeather() {
-        let weather = await fetch(`http://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_API_KEY}&q=${this.lat},${this.long}&aqi=no`);
+        let weather = await fetch(`https://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_API_KEY}&q=${this.lat},${this.long}&aqi=no`);
 
         let data = await weather.json();
         // this.location = data.location
