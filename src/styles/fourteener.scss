@@ -11,10 +11,11 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
+    border: 3px solid skyblue;
     border-radius: 6px;
     align-items: center;
     margin: 10px;
+    background-color: rgb(109, 179, 5);
 }
 
 // .fourteener-container {
@@ -23,7 +24,7 @@
 
 .fourteener-map {
     justify-content: center;
-    width: calc(100% - 502px);
+    width: calc(100% - 506px);
 }
 
 
