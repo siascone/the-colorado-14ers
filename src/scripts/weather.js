@@ -1,4 +1,5 @@
 import { fourteeners } from "../../assets/14er";
+import Clock from "./clock";
 
 class Weather {
     constructor(container, coordinates) {
@@ -7,7 +8,8 @@ class Weather {
         this.long = coordinates.long
 
         this.getWeather = this.getWeather.bind(this);
-        this.addWeather = this.addWeather.bind(this);
+        this.getTime = this.getTime.bind(this);
+        this.addWeatherCard = this.addWeatherCard.bind(this);
         this.addForecast = this.addForecast.bind(this);
         this.getWeather();
     }
@@ -16,61 +18,72 @@ class Weather {
         let weather = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${process.env.WEATHER_API_KEY}&q=${this.lat},${this.long}&days=3&aqi=no&alerts=no`);
 
         let data = await weather.json();
-        this.addWeather(data);
+        this.addWeatherCard(data)
         this.addForecast(data.forecast);
         // console.log(data)
     }
 
-    addWeather(weatherData) {
-        let town = document.createElement('p')
-        let temp = document.createElement('p')
-        let condition = document.createElement('p')
-        let windSpeed = document.createElement('p')
-        let windDirection = document.createElement('p')
-        let gusts = document.createElement('p')
-        let humidity = document.createElement('p')
-        let precipitation = document.createElement('p')
-        let pressure = document.createElement('p')
-        let uv = document.createElement('p')
+    addWeatherCard(weatherCardData) {
+        console.log(weatherCardData)
+        let card = document.createElement('div')
+        card.classList.add('weather-card')
+        let city = document.createElement('h2')
 
-        town.innerText = `Peak/Nearest Town: ${weatherData.location.name}`
-        temp.innerText = `Temperature: ${weatherData.current.temp_f}℉, ${weatherData.current.temp_c}℃`;
-        condition.innerText = `Conditions: ${weatherData.current.condition.text}`;
-        windSpeed.innerText = `Wind Speed: ${weatherData.current.wind_mph} mph, ${weatherData.current.wind_kph} kph`;
-        windDirection.innerText = `Wind Direction: ${weatherData.current.wind_dir}`;
-        gusts.innerText = `Gusts up to: ${weatherData.current.gust_mph} mph, ${weatherData.current.gust_kph} kph`;
-        humidity.innerText = `Humidity: ${weatherData.current.humidity}`;
-        precipitation.innerText = `Precipitation: ${weatherData.current.precip_in} in, ${weatherData.current.precip_mm} mm`;
-        pressure.innerText = `Atmospheric Pressure: ${weatherData.current.pressure_in} in, ${weatherData.current.pressure_mb} mb`
-        uv.innerText = `UV Index: ${weatherData.current.uv}`
+        let ul = document.createElement('ul')
 
-        let weatherPoints = [
-            town,
-            temp,
-            condition,
-            windSpeed,
-            windDirection,
-            gusts,
-            humidity,
-            precipitation,
-            pressure,
-            uv
-        ]
+        let temp = document.createElement('li')
+        let wind = document.createElement('li')
+        let humidity = document.createElement('li')
+        let precipitation = document.createElement('li')
+        let uvIndex = document.createElement('li')
 
-        this.container.innerHTML = ""
+        let time = document.createElement('div')
+        time.classList.add('time')
+        let timeLabel = document.createElement('span')
+        timeLabel.innerText = 'Local Time: ';
+        time.appendChild(timeLabel)
+        let timeSlot = document.createElement('span')
+        time.appendChild(timeSlot)
+
+        new Clock(weatherCardData.location.tz_id, timeSlot)
+
+        city.innerText = weatherCardData.location.name
+
+
+        temp.innerHTML = `<span>Temperature:</span> ${weatherCardData.current.temp_f}℉ and ${weatherCardData.current.condition.text}`;
+        wind.innerHTML = `<span>Wind:</span> ${weatherCardData.current.wind_mph} mph ${weatherCardData.current.wind_dir}`
+        humidity.innerHTML = `<span>Humidity:</span> ${weatherCardData.current.humidity}`
+        precipitation.innerHTML = `<span>Precipitation:</span> ${weatherCardData.current.precip_in} in`
+        uvIndex.innerHTML = `<span>UV Index:</span> ${weatherCardData.current.uv}`
+
+        let weatherLis = [temp, wind, humidity, precipitation, uvIndex]
         
-        weatherPoints.forEach(point => {
-            this.container.appendChild(point)
+        weatherLis.forEach(weatehrLi => {
+            ul.appendChild(weatehrLi)
         })
 
+        card.appendChild(city)
+        card.appendChild(ul)
+        card.appendChild(time)
+
+        this.container.innerHTML = ""
+        this.container.appendChild(card)
     }
 
-    weatherCard() {
-        let card = document.createElement('div')
+    getTime(timeString) {
+        let date = new Date(timeString)
+        let hour = date.getHours()
+        let mins = date.getMinutes()
+
+        return `${hour}:${mins}`
+    }
+
+    forcastCard() {
+
     }
 
     addForecast(weatherData) {
-        console.log(weatherData.forecastday)
+        // console.log(weatherData.forecastday)
         let forecast = document.querySelector('.weather-forecast')
         let day1 = document.createElement('div')
         let day2 = document.createElement('div')

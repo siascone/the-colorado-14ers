@@ -177,6 +177,7 @@ table {
   border-radius: 6px;
   align-items: center;
   margin: 10px;
+  background-color: lightgray;
 }
 
 .fourteener-map {
@@ -204,6 +205,8 @@ table {
 .weather-current {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 3px solid skyblue;
   border-radius: 6px;
   width: 300px;
@@ -218,6 +221,46 @@ table {
   border-radius: 6px;
   width: calc(100% - 306px);
   margin: 10px;
+}
+
+.weather-current, .weather-forecast {
+  background-color: lightgray;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  border: 2px solid rgb(184, 181, 181);
+}
+
+.weather-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.weather-card ul {
+  line-height: 1.5em;
+  overflow-wrap: break-word;
+}
+
+.weather-card ul span {
+  font-weight: bold;
+}
+
+.weather-card > .time {
+  border: 2px solid #EBA487;
+  width: 80%;
+  background-color: lightyellow;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 .footer {
