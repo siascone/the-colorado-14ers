@@ -22,5 +22,21 @@
     // margin-left: 10px;
     font-size: 28px;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.info-icon:hover {
+    cursor: pointer;
+}
+
+.bio-links {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.bio-links > a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
 }

@@ -15,7 +15,9 @@ export const fourteeners = {
         "difficulty": "Class 1",
         "trafficLow": 20000,
         "trafficHigh": 25000,
-        "photo": "https://www.14ers.com/photos/mtelbert/peakphotos/large/201207_Elbert01.jpg"
+        "photo": "https://www.14ers.com/photos/mtelbert/peakphotos/large/201207_Elbert01.jpg",
+        "directions": "",
+        "route": ""
     },
     2: {
         "id": 2,
@@ -33,7 +35,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 7000,
         "trafficHigh": 10000,
-        "photo": "https://www.14ers.com/photos/mtmassive/peakphotos/large/200508_Massive01.jpg"
+        "photo": "https://www.14ers.com/photos/mtmassive/peakphotos/large/200508_Massive01.jpg",
+        "directions": "",
+        "route": ""
     },
     3: {
         "id": 3,
@@ -51,7 +55,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/harvardgroup/peakphotos/large/200706_Harv01.jpg"
+        "photo": "https://www.14ers.com/photos/harvardgroup/peakphotos/large/200706_Harv01.jpg",
+        "directions": "",
+        "route": ""
     },
     4: {
         "id": 4,
@@ -69,7 +75,9 @@ export const fourteeners = {
         "difficulty": "Hard Class 2",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/blancagroup/peakphotos/large/200607_Blanca01.jpg"
+        "photo": "https://www.14ers.com/photos/blancagroup/peakphotos/large/200607_Blanca01.jpg",
+        "directions": "",
+        "route": ""
     },
     5: {
         "id": 5,
@@ -87,7 +95,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/laplatapeak/peakphotos/large/201205_Lap01.jpg"
+        "photo": "https://www.14ers.com/photos/laplatapeak/peakphotos/large/201205_Lap01.jpg",
+        "directions": "",
+        "route": ""
     },
     6: {
         "id": 6,
@@ -105,7 +115,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/uncompahgrepeak/peakphotos/large/201710_Unco01.jpg"
+        "photo": "https://www.14ers.com/photos/uncompahgrepeak/peakphotos/large/201710_Unco01.jpg",
+        "directions": "",
+        "route": ""
     },
     7: {
         "id": 7,
@@ -123,7 +135,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201607_Crestones01.jpg"
+        "photo": "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201607_Crestones01.jpg",
+        "directions": "",
+        "route": ""
     },
     8: {
         "id": 8,
@@ -141,7 +155,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 15000,
         "trafficHigh": 20000,
-        "photo": "https://www.14ers.com/photos/lincolngroup/peakphotos/large/200904_LinBro01.jpg"
+        "photo": "https://www.14ers.com/photos/lincolngroup/peakphotos/large/200904_LinBro01.jpg",
+        "directions": "",
+        "route": ""
     },
     9: {
         "id": 9,
@@ -159,7 +175,9 @@ export const fourteeners = {
         "difficulty": "Hard Class 2",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/castlegroup/peakphotos/large/200807_Cast04.jpg"
+        "photo": "https://www.14ers.com/photos/castlegroup/peakphotos/large/200807_Cast04.jpg",
+        "directions": "",
+        "route": ""
     },
     10: {
         "id": 10,
@@ -177,7 +195,9 @@ export const fourteeners = {
         "difficulty": "Class 1",
         "trafficLow": 25000,
         "trafficHigh": 30000,
-        "photo": "https://www.14ers.com/photos/graystorreys/peakphotos/large/201211_Grays01.jpg"
+        "photo": "https://www.14ers.com/photos/graystorreys/peakphotos/large/201211_Grays01.jpg",
+        "directions": "",
+        "route": ""
     },
     11: {
         "id": 11,
@@ -195,7 +215,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/mtantero/peakphotos/large/201205_Ant01.jpg"
+        "photo": "https://www.14ers.com/photos/mtantero/peakphotos/large/201205_Ant01.jpg",
+        "directions": "",
+        "route": ""
     },
     12: {
         "id": 12,
@@ -213,7 +235,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 25000,
         "trafficHigh": 30000,
-        "photo": "https://www.14ers.com/photos/graystorreys/peakphotos/large/201004_Grays01.jpg"
+        "photo": "https://www.14ers.com/photos/graystorreys/peakphotos/large/201004_Grays01.jpg",
+        "directions": "",
+        "route": ""
     },
     13: {
         "id": 13,
@@ -231,7 +255,9 @@ export const fourteeners = {
         "difficulty": "Class 1",
         "trafficLow": 20000,
         "trafficHigh": 25000,
-        "photo": "https://www.14ers.com/photos/quandarypeak/peakphotos/large/200701_Quan02.jpg"
+        "photo": "https://www.14ers.com/photos/quandarypeak/peakphotos/large/200701_Quan02.jpg",
+        "directions": "",
+        "route": ""
     },
     14: {
         "id": 14,
@@ -249,7 +275,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 15000,
         "trafficHigh": 20000,
-        "photo": "https://www.14ers.com/photos/evansgroup/peakphotos/large/200907_Evans01.jpg"
+        "photo": "https://www.14ers.com/photos/evansgroup/peakphotos/large/200907_Evans01.jpg",
+        "directions": "",
+        "route": ""
     },
     15: {
         "id": 15,
@@ -267,7 +295,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 15000,
         "trafficHigh": 20000,
-        "photo": "https://www.14ers.com/photos/longspeak/peakphotos/large/200508_Longs01.jpg"
+        "photo": "https://www.14ers.com/photos/longspeak/peakphotos/large/200508_Longs01.jpg",
+        "directions": `Drive south from Estes Park 10 miles on Colorado 7 then 1 mile west to a "T" junction. The left fork leadds to the Longs Peak Ranger Station and parking lot, whichs is often crowded. The right fork leads to the Longs Peak Campground, where sites are available on a first-come basis. Additional camping is available at backcountry sites where permits are required. Contact Rocky Mountain National Park (970-586-1242) for more information`,
+        "route": ""
     },
     16: {
         "id": 16,
@@ -285,7 +315,9 @@ export const fourteeners = {
         "difficulty": "Class 4",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/wilsongroup/peakphotos/large/200803_Wils01.jpg"
+        "photo": "https://www.14ers.com/photos/wilsongroup/peakphotos/large/200803_Wils01.jpg",
+        "directions": "",
+        "route": ""
     },
     17: {
         "id": 17,
@@ -303,7 +335,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/shavanogroup/peakphotos/large/200804_Shav01.jpg"
+        "photo": "https://www.14ers.com/photos/shavanogroup/peakphotos/large/200804_Shav01.jpg",
+        "directions": "",
+        "route": ""
     },
     18: {
         "id": 18,
@@ -321,7 +355,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/mtprinceton/peakphotos/large/200904_Prin01.jpg"
+        "photo": "https://www.14ers.com/photos/mtprinceton/peakphotos/large/200904_Prin01.jpg",
+        "directions": "",
+        "route": ""
     },
     19: {
         "id": 19,
@@ -339,7 +375,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/belfordgroup/peakphotos/large/201204_Belf01.jpg"
+        "photo": "https://www.14ers.com/photos/belfordgroup/peakphotos/large/201204_Belf01.jpg",
+        "directions": "",
+        "route": ""
     },
     20: {
         "id": 20,
@@ -357,7 +395,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201104_CNeed01.jpg"
+        "photo": "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201104_CNeed01.jpg",
+        "directions": "",
+        "route": ""
     },
     21: {
         "id": 21,
@@ -375,7 +415,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/mtyale/peakphotos/large/201004_Yale02.jpg"
+        "photo": "https://www.14ers.com/photos/mtyale/peakphotos/large/201004_Yale02.jpg",
+        "directions": "",
+        "route": ""
     },
     22: {
         "id": 22,
@@ -393,7 +435,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 15000,
         "trafficHigh": 20000,
-        "photo": "https://www.14ers.com/photos/lincolngroup/peakphotos/large/200505_Bross01.jpg"
+        "photo": "https://www.14ers.com/photos/lincolngroup/peakphotos/large/200505_Bross01.jpg",
+        "directions": "",
+        "route": ""
     },
     23: {
         "id": 23,
@@ -411,7 +455,9 @@ export const fourteeners = {
         "difficulty": "Easy Class 3",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/kitcarsongroup/peakphotos/large/201107_kitcar02.jpg"
+        "photo": "https://www.14ers.com/photos/kitcarsongroup/peakphotos/large/201107_kitcar02.jpg",
+        "directions": "",
+        "route": ""
     },
     24: {
         "id": 24,
@@ -429,7 +475,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/maroongroup/peakphotos/large/201807_Maro02.jpg"
+        "photo": "https://www.14ers.com/photos/maroongroup/peakphotos/large/201807_Maro02.jpg",
+        "directions": "",
+        "route": ""
     },
     25: {
         "id": 25,
@@ -447,7 +495,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/shavanogroup/peakphotos/large/201005_Tabe01.jpg"
+        "photo": "https://www.14ers.com/photos/shavanogroup/peakphotos/large/201005_Tabe01.jpg",
+        "directions": "",
+        "route": ""
     },
     26: {
         "id": 26,
@@ -465,7 +515,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/belfordgroup/peakphotos/large/200508_Oxfo01.jpg"
+        "photo": "https://www.14ers.com/photos/belfordgroup/peakphotos/large/200508_Oxfo01.jpg",
+        "directions": "",
+        "route": ""
     },
     27: {
         "id": 27,
@@ -483,7 +535,9 @@ export const fourteeners = {
         "difficulty": "Easy Class 3",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/mtsneffels/peakphotos/large/200808_Snef23.jpg"
+        "photo": "https://www.14ers.com/photos/mtsneffels/peakphotos/large/200808_Snef23.jpg",
+        "directions": "",
+        "route": ""
     },
     28: {
         "id": 28,
@@ -501,7 +555,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 15000,
         "trafficHigh": 20000,
-        "photo": "https://www.14ers.com/photos/lincolngroup/peakphotos/large/201706_Demo01.jpg"
+        "photo": "https://www.14ers.com/photos/lincolngroup/peakphotos/large/201706_Demo01.jpg",
+        "directions": "",
+        "route": ""
     },
     29: {
         "id": 29,
@@ -519,7 +575,9 @@ export const fourteeners = {
         "difficulty": "Class 4",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/capitolpeak/peakphotos/large/200807_Capi02.jpg"
+        "photo": "https://www.14ers.com/photos/capitolpeak/peakphotos/large/200807_Capi02.jpg",
+        "directions": "",
+        "route": ""
     },
     30: {
         "id": 30,
@@ -537,7 +595,9 @@ export const fourteeners = {
         "difficulty": "Class 1",
         "trafficLow": 15000,
         "trafficHigh": 20000,
-        "photo": "https://www.14ers.com/photos/pikespeak/peakphotos/large/201506_Pikes01.jpg"
+        "photo": "https://www.14ers.com/photos/pikespeak/peakphotos/large/201506_Pikes01.jpg",
+        "directions": "",
+        "route": ""
     },
     31: {
         "id": 31,
@@ -555,7 +615,9 @@ export const fourteeners = {
         "difficulty": "Hard Class 3",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/snowmassmtn/peakphotos/large/200907_Snow01.jpg"
+        "photo": "https://www.14ers.com/photos/snowmassmtn/peakphotos/large/200907_Snow01.jpg",
+        "directions": "",
+        "route": ""
     },
     32: {
         "id": 32,
@@ -573,7 +635,9 @@ export const fourteeners = {
         "difficulty": "Hard Class 2",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/windomgroup/peakphotos/large/200607_Wind01.jpg"
+        "photo": "https://www.14ers.com/photos/windomgroup/peakphotos/large/200607_Wind01.jpg",
+        "directions": "",
+        "route": ""
     },
     33: {
         "id": 33,
@@ -591,7 +655,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/windomgroup/peakphotos/large/200607_Eolus01.jpg"
+        "photo": "https://www.14ers.com/photos/windomgroup/peakphotos/large/200607_Eolus01.jpg",
+        "directions": "",
+        "route": ""
     },
     34: {
         "id": 34,
@@ -609,7 +675,9 @@ export const fourteeners = {
         "difficulty": "Hard Class 2",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/kitcarsongroup/peakphotos/large/200707_chal01.jpg"
+        "photo": "https://www.14ers.com/photos/kitcarsongroup/peakphotos/large/200707_chal01.jpg",
+        "directions": "",
+        "route": ""
     },
     35: {
         "id": 35,
@@ -627,7 +695,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/harvardgroup/peakphotos/large/201005_Colu01.jpg"
+        "photo": "https://www.14ers.com/photos/harvardgroup/peakphotos/large/201005_Colu01.jpg",
+        "directions": "",
+        "route": ""
     },
     36: {
         "id": 36,
@@ -645,7 +715,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/belfordgroup/peakphotos/large/200706_Miss01.jpg"
+        "photo": "https://www.14ers.com/photos/belfordgroup/peakphotos/large/200706_Miss01.jpg",
+        "directions": "",
+        "route": ""
     },
     37: {
         "id": 37,
@@ -663,7 +735,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201607_Humb01.jpg"
+        "photo": "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201607_Humb01.jpg",
+        "directions": "",
+        "route": ""
     },
     38: {
         "id": 38,
@@ -681,7 +755,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 35000,
         "trafficHigh": 40000,
-        "photo": "https://www.14ers.com/photos/evansgroup/peakphotos/large/200607_Bier01.jpg"
+        "photo": "https://www.14ers.com/photos/evansgroup/peakphotos/large/200607_Bier01.jpg",
+        "directions": "",
+        "route": ""
     },
     39: {
         "id": 39,
@@ -699,7 +775,9 @@ export const fourteeners = {
         "difficulty": "Class 4",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/windomgroup/peakphotos/large/200708_Sunl01.jpg"
+        "photo": "https://www.14ers.com/photos/windomgroup/peakphotos/large/200708_Sunl01.jpg",
+        "directions": "",
+        "route": ""
     },
     40: {
         "id": 40,
@@ -717,7 +795,9 @@ export const fourteeners = {
         "difficulty": "Class 1",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/handiespeak/peakphotos/large/200707_Hand03.jpg"
+        "photo": "https://www.14ers.com/photos/handiespeak/peakphotos/large/200707_Hand03.jpg",
+        "directions": "",
+        "route": ""
     },
     41: {
         "id": 41,
@@ -735,7 +815,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/culebrapeak/peakphotos/large/201508_Cule01.jpg"
+        "photo": "https://www.14ers.com/photos/culebrapeak/peakphotos/large/201508_Cule01.jpg",
+        "directions": "",
+        "route": ""
     },
     42: {
         "id": 42,
@@ -753,7 +835,9 @@ export const fourteeners = {
         "difficulty": "Hard Class 2",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/blancagroup/peakphotos/large/200607_Elli01.jpg"
+        "photo": "https://www.14ers.com/photos/blancagroup/peakphotos/large/200607_Elli01.jpg",
+        "directions": "",
+        "route": ""
     },
     43: {
         "id": 43,
@@ -771,7 +855,9 @@ export const fourteeners = {
         "difficulty": "Easy Class 3",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/mtlindsey/peakphotos/large/200606_Lind01.jpg"
+        "photo": "https://www.14ers.com/photos/mtlindsey/peakphotos/large/200606_Lind01.jpg",
+        "directions": "",
+        "route": ""
     },
     44: {
         "id": 44,
@@ -789,7 +875,9 @@ export const fourteeners = {
         "difficulty": "Class 4",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/blancagroup/peakphotos/large/200607_Litt01.jpg"
+        "photo": "https://www.14ers.com/photos/blancagroup/peakphotos/large/200607_Litt01.jpg",
+        "directions": "",
+        "route": ""
     },
     45: {
         "id": 45,
@@ -807,7 +895,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 20000,
         "trafficHigh": 25000,
-        "photo": "https://www.14ers.com/photos/mtsherman/peakphotos/large/201207_Sher02.jpg"
+        "photo": "https://www.14ers.com/photos/mtsherman/peakphotos/large/201207_Sher02.jpg",
+        "directions": "",
+        "route": ""
     },
     46: {
         "id": 46,
@@ -825,7 +915,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/redcloudgroup/peakphotos/large/201610_Redc02.jpg"
+        "photo": "https://www.14ers.com/photos/redcloudgroup/peakphotos/large/201610_Redc02.jpg",
+        "directions": "",
+        "route": ""
     },
     47: {
         "id": 47,
@@ -843,7 +935,9 @@ export const fourteeners = {
         "difficulty": "Class 4",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/maroongroup/peakphotos/large/200807_Pyra01.jpg"
+        "photo": "https://www.14ers.com/photos/maroongroup/peakphotos/large/200807_Pyra01.jpg",
+        "directions": "",
+        "route": ""
     },
     48: {
         "id": 48,
@@ -861,7 +955,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/wilsongroup/peakphotos/large/200604_Wils01.jpg"
+        "photo": "https://www.14ers.com/photos/wilsongroup/peakphotos/large/200604_Wils01.jpg",
+        "directions": "",
+        "route": ""
     },
     49: {
         "id": 49,
@@ -879,7 +975,9 @@ export const fourteeners = {
         "difficulty": "Class 1",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/sanluispeak/peakphotos/large/201807_San01.jpg"
+        "photo": "https://www.14ers.com/photos/sanluispeak/peakphotos/large/201807_San01.jpg",
+        "directions": "",
+        "route": ""
     },
     50: {
         "id": 50,
@@ -897,7 +995,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/wetterhornpeak/peakphotos/large/201106_Wett01.jpg"
+        "photo": "https://www.14ers.com/photos/wetterhornpeak/peakphotos/large/201106_Wett01.jpg",
+        "directions": "",
+        "route": ""
     },
     51: {
         "id": 51,
@@ -915,7 +1015,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/mtholycross/peakphotos/large/200706_Holy01.jpg"
+        "photo": "https://www.14ers.com/photos/mtholycross/peakphotos/large/200706_Holy01.jpg",
+        "directions": "",
+        "route": ""
     },
     52: {
         "id": 52,
@@ -933,7 +1035,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 5000,
         "trafficHigh": 7000,
-        "photo": "https://www.14ers.com/photos/huronpeak/peakphotos/large/201607_Huro01.jpg"
+        "photo": "https://www.14ers.com/photos/huronpeak/peakphotos/large/201607_Huro01.jpg",
+        "directions": "",
+        "route": ""
     },
     53: {
         "id": 53,
@@ -951,7 +1055,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/redcloudgroup/peakphotos/large/200606_Sun01.jpg"
+        "photo": "https://www.14ers.com/photos/redcloudgroup/peakphotos/large/200606_Sun01.jpg",
+        "directions": "",
+        "route": ""
     },
     54: {
         "id": 54,
@@ -969,7 +1075,9 @@ export const fourteeners = {
         "difficulty": "Class 2",
         "trafficLow": 15000,
         "trafficHigh": 20000,
-        "photo": "https://www.14ers.com/photos/lincolngroup/peakphotos/large/200505_Linc01.jpg"
+        "photo": "https://www.14ers.com/photos/lincolngroup/peakphotos/large/200505_Linc01.jpg",
+        "directions": "",
+        "route": ""
     },
     55: {
         "id": 55,
@@ -987,7 +1095,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/wilsongroup/peakphotos/large/201007_ElD01.jpg"
+        "photo": "https://www.14ers.com/photos/wilsongroup/peakphotos/large/201007_ElD01.jpg",
+        "directions": "",
+        "route": ""
     },
     56: {
         "id": 56,
@@ -1005,7 +1115,9 @@ export const fourteeners = {
         "difficulty": "Hard Class 2",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/castlegroup/peakphotos/large/200807_Cast01.jpg"
+        "photo": "https://www.14ers.com/photos/castlegroup/peakphotos/large/200807_Cast01.jpg",
+        "directions": "",
+        "route": ""
     },
     57: {
         "id": 57,
@@ -1023,7 +1135,9 @@ export const fourteeners = {
         "difficulty": "Class 3",
         "trafficLow": 3000,
         "trafficHigh": 5000,
-        "photo": "https://www.14ers.com/photos/windomgroup/peakphotos/large/200607_Eolus01.jpg"
+        "photo": "https://www.14ers.com/photos/windomgroup/peakphotos/large/200607_Eolus01.jpg",
+        "directions": "",
+        "route": ""
     },
     58: {
         "id": 58,
@@ -1041,6 +1155,8 @@ export const fourteeners = {
         "difficulty": "Class 4",
         "trafficLow": 1000,
         "trafficHigh": 3000,
-        "photo": "https://www.14ers.com/photos/maroongroup/peakphotos/large/200807_NMar01.jpg"
+        "photo": "https://www.14ers.com/photos/maroongroup/peakphotos/large/200807_NMar01.jpg",
+        "directions": "",
+        "route": ""
     }
 }
