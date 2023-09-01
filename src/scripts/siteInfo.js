@@ -30,7 +30,7 @@ class SiteInfo {
 
         let p1 = document.createElement('p')
         p1.classList.add('info-p1')
-        p1.innerText = "Marmy the Rocky Mountain Marmot here."
+        p1.innerText = "Marmmy the Rocky Mountain Marmot here."
 
         let p2 = document.createElement('p')
         p2.classList.add('info-p2')

@@ -1,6 +1,5 @@
 .weather-container {
     display: flex;
-    justify-content: space-evenly;
     height: 300px;
     width: 100%;
 }
@@ -10,25 +9,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid skyblue;
+    border: 3px solid #162129;
     border-radius: 6px;
-    width: 300px;
+    min-width: 300px;
     margin: 10px;
 }
 
-.weather-forecast {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 3px solid skyblue;
-    border-radius: 6px;
-    width: calc(100% - 306px);
-    margin: 10px;
-}
+
 
 .weather-current, .weather-forecast {
-    // background-color: rgb(109, 179, 5);
-    background-color: lightgray;
+    background-color: #6FA0BF;
 }
 
 .weather-card {
@@ -40,7 +30,7 @@
     width: 90%;
     background-color: whitesmoke;
     border-radius: 6px;
-    border: 2px solid rgb(184, 181, 181);
+    border: 2px solid #162129;
     // padding: 10px;
 }
 
@@ -61,9 +51,84 @@
 }
 
 .weather-card > .time {
-    border: 2px solid #EBA487;
+    border: 2px solid #162129;
     width: 80%;
-    background-color: lightyellow;
+    background-color: whitesmoke;
     padding: 10px;
     border-radius: 6px;
 }
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #162129;
+    border-radius: 6px;
+    width: calc(100% - 306px);
+    min-width: 500px;
+    overflow-y: scroll;
+    margin: 10px;
+}
+
+.forecast-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    // align-items: center;
+    border: 2px solid #162129;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    height: 90%;
+    width: 30%;
+    min-width: 270px;
+    margin: 10px 10px;
+    // text-align: center;
+
+
+}
+
+.forecast-card > * {
+    padding: 0 15px
+}
+
+@media only screen and (max-width: 1053px) {
+    .weather-forecast {
+        min-width: 700px;
+    }
+
+    .body {
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .weather-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+    .weather-forecast,
+    .weather-current {
+        width: 500px;
+        min-width: 500px;
+        min-height: 500px;
+    }
+
+    .weather-forecast {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        overflow: scroll;
+        padding: 10px 0;
+
+    }
+
+    .forecast-card {
+        width: 90%;
+        min-height: 200px;
+    }
+}
+

@@ -78,7 +78,7 @@ class Weather {
         return `${hour}:${mins}`
     }
 
-    forcastCard() {
+    forcastCard(weatherData) {
 
     }
 
@@ -92,22 +92,25 @@ class Weather {
 
         weatherData.forecastday.forEach((dayData, i) => {
 
-            let highTemp = document.createElement('p')
+            let temp = document.createElement('p')
             let lowTemp = document.createElement('p')
             let avgHumidity = document.createElement('p')
-            let chanceOfRain = document.createElement('p')
+            let precipitation = document.createElement('p')
             let chanceOfSnow = document.createElement('p')
             let wind = document.createElement('p')
             let uv = document.createElement('p')
             
-            highTemp.innerText = `High: ${dayData.day.maxtemp_f}℉, ${dayData.day.maxtemp_c}℃. Low: ${dayData.day.mintemp_f}℉, ${dayData.day.mintemp_c}℃.`
+            temp.innerText = `High: ${dayData.day.maxtemp_f}℉, Low: ${dayData.day.mintemp_f}℉`
+            wind.innerText = `Wind speeds up to: ${dayData.day.maxwind_mph} mph`
+            avgHumidity.innerText = `Avg Humidity: ${dayData.day.avghumidity}`
+            precipitation.innerText = `Chance of Rain: ${dayData.day.daily_chance_of_rain}%`
             
-            let dayPoints = [highTemp]
+            let dayPoints = [temp, wind, avgHumidity, precipitation]
 
             const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
             let dayNum = new Date(dayData.date).getUTCDay()
-            let dayName = document.createElement('p')
+            let dayName = document.createElement('h2')
             dayName.innerText = `${dayNames[dayNum]}`
 
             days[i].appendChild(dayName);
@@ -117,8 +120,10 @@ class Weather {
                 days[i].appendChild(point)
             })
         })
+
         forecast.innerHTML = ''
         days.forEach(day => {
+            day.classList.add('forecast-card')
             forecast.appendChild(day)
         })
     }

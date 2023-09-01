@@ -25,38 +25,34 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    border: 3px solid skyblue;
+    border: 3px solid #162129;
     border-radius: 6px;
     align-items: center;
     margin: 10px;
-    background-color: lightgray;
+    background-color: #6FA0BF;
 }
 
 .fourteener-container {
     position: relative;
+    min-width: 500px;
 }
 
 .fourteener-container > h2 {
     position: absolute;
     font-size: 20px;
     padding: 15px 8px;
-    // width: 85%;
-    // top: 5%;
-    // background-color: whitesmoke;
-    //     border-radius: 6px;
-    //     border: 2px solid darkgray;
 }
 
 .info {
     position: absolute;
     padding: 10px;
     width: 40%;
-    top: 10%;
+    top: 14%;
     left: 5%;
     background-color: whitesmoke;
-    opacity: 0.8;
+    opacity: 0.75;
     border-radius: 6px;
-    border: 2px solid darkgray;
+    border: 2px solid #162129;
 }
 
 .rockies {
@@ -71,6 +67,7 @@
 .fourteener-map {
     justify-content: center;
     width: calc(100% - 506px);
+    min-width: 500px;
 }
 
 
