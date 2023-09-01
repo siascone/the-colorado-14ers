@@ -168,6 +168,16 @@ table {
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 700px) {
+  .fourteener-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .fourteener-map {
+    min-width: 500px;
+  }
+}
 .fourteener-container, .fourteener-map {
   width: 500px;
   height: 500px;
@@ -178,6 +188,11 @@ table {
   align-items: center;
   margin: 10px;
   background-color: lightgray;
+}
+
+.rockies {
+  height: 100%;
+  width: 100%;
 }
 
 .fourteener-map {

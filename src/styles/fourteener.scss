@@ -6,6 +6,19 @@
     margin-top: 10px;
 }
 
+@media only screen and (max-width: 700px)  {
+    .fourteener-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+    .fourteener-map {
+        min-width: 500px;
+    }
+}
+
 .fourteener-container, .fourteener-map {
     width: 500px;
     height: 500px;
@@ -21,6 +34,11 @@
 // .fourteener-container {
 //     background-color: ;
 // }
+
+.rockies {
+    height: 100%;
+    width: 100%;
+}
 
 .fourteener-map {
     justify-content: center;
