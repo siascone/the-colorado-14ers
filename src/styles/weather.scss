@@ -34,19 +34,19 @@
     // padding: 10px;
 }
 
-.weather-card h2 {
+.weather-card h2, .forecast-heading h2 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
     padding: 10px;
 }
 
-.weather-card ul {
+.weather-card ul, .forecast-card ul {
     line-height: 1.5em;
     overflow-wrap: break-word;
 }
 
-.weather-card ul span {
+.weather-card ul span, .forecast-card ul span {
     font-weight: bold;
 }
 
@@ -79,8 +79,9 @@
     border-radius: 6px;
     background-color: whitesmoke;
     height: 90%;
-    width: 30%;
+    // width: 30%;
     min-width: 270px;
+    width: 270px;
     margin: 10px 10px;
     // text-align: center;
 
@@ -89,6 +90,16 @@
 
 .forecast-card > * {
     padding: 0 15px
+}
+
+.forecast-heading {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weather-condition-icon {
+    height: 35px;
+    width: 35px;
 }
 
 @media only screen and (max-width: 1053px) {

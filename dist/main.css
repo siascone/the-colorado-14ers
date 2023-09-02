@@ -238,6 +238,14 @@ table {
   padding-bottom: 10px;
 }
 
+.fourteener-card {
+  width: 90%;
+  height: 90%;
+  margin: 25px 0;
+  border: 2px solid #162129;
+  border-radius: 6px;
+}
+
 .fourteener-map {
   justify-content: center;
   width: calc(100% - 506px);
@@ -287,19 +295,19 @@ table {
   border: 2px solid #162129;
 }
 
-.weather-card h2 {
+.weather-card h2, .forecast-heading h2 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
   padding: 10px;
 }
 
-.weather-card ul {
+.weather-card ul, .forecast-card ul {
   line-height: 1.5em;
   overflow-wrap: break-word;
 }
 
-.weather-card ul span {
+.weather-card ul span, .forecast-card ul span {
   font-weight: bold;
 }
 
@@ -331,13 +339,23 @@ table {
   border-radius: 6px;
   background-color: whitesmoke;
   height: 90%;
-  width: 30%;
   min-width: 270px;
+  width: 270px;
   margin: 10px 10px;
 }
 
 .forecast-card > * {
   padding: 0 15px;
+}
+
+.forecast-heading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.weather-condition-icon {
+  height: 35px;
+  width: 35px;
 }
 
 @media only screen and (max-width: 1053px) {

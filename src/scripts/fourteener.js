@@ -15,9 +15,14 @@ class Fourteener {
     }
 
     buildFourteenr() {
+        let card = document.createElement('div')
+        card.classList.add('fourteener-card')
+        
+        this.addImage(card);
+        this.addDetails(card);
+
         this.container.innerHTML = "";
-        this.addImage();
-        this.addDetails();
+        this.container.appendChild(card)
     }
 
     // addDetails() {
@@ -27,13 +32,13 @@ class Fourteener {
 
     // }
 
-    addHeading() {
+    addHeading(card) {
         let heading = document.createElement('h2');
         heading.innerText = this.data.mountainPeak;
         this.container.appendChild(heading);
     }
 
-    addDetails() {
+    addDetails(card) {
         let heading = document.createElement('h2');
         heading.innerText = this.data.mountainPeak;
         let metricsContainer = document.createElement('div');
@@ -50,14 +55,14 @@ class Fourteener {
         // metricsContainer.appendChild(elevation)
         metrics.forEach(metric => metricsContainer.appendChild(metric));
 
-        this.container.appendChild(metricsContainer);
+        card.appendChild(metricsContainer);
     }
 
-    addImage() {
+    addImage(card) {
         let image = document.createElement('img');
         image.src = this.data.photo;
         image.classList.add('fourteener-image');
-        this.container.appendChild(image);
+        card.appendChild(image);
     }
 }
 
